@@ -11,7 +11,7 @@
     <project path="hardware/qcom-caf/sdm660/audio" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_audio" revision="lineage-21.0" remote="github"/>
 
     <project path="device/xiaomi/lavender" name="tilt-rgb/device_xiaomi_lavender" revision="arrow-13.1" remote="github" />
-    <project path="device/xiaomi/sdm660-common" name="Ratoriku-Studio/device_xiaomi_sdm660-common" revision="arrow-13.1" remote="github" />
+    <project path="device/xiaomi/sdm660-common" name="windlite3/arrow13_device_xiaomi_sdm660-common" revision="arrow-13.1" remote="github" />
     <project path="vendor/xiaomi/lavender" name="Ratoriku-Studio/vendor_xiaomi_lavender" revision="arrow-13.1" remote="github" />
     <project path="vendor/xiaomi/sdm660-common" name="Ratoriku-Studio/vendor_xiaomi_sdm660-common" revision="arrow-13.1" remote="github" />
     <project path="kernel/xiaomi/lavender" name="Lavender-Gang/kernel_xiaomi_lavender" revision="14.0" remote="github" />

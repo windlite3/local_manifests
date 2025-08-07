@@ -6,15 +6,15 @@
     <remove-project name="android_hardware_qcom_media" />
     <remove-project name="android_hardware_qcom_audio" />
 
-    <project path="hardware/qcom-caf/sdm660/display" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_display" revision="lineage-21.0" remote="github"/>
-    <project path="hardware/qcom-caf/sdm660/media" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_media" revision="lineage-21.0" remote="github"/>
-    <project path="hardware/qcom-caf/sdm660/audio" name="Lavender-LineageOS/hardware_qcom-caf_sdm660_audio" revision="lineage-21.0" remote="github"/>
+    <project path="hardware/qcom-caf/sdm660/display" name="windlite3/hardware_qcom-caf_sdm660_display" revision="arrow-13.1" remote="github"/>
+    <project path="hardware/qcom-caf/sdm660/media" name="windlite3/hardware_qcom-caf_sdm660_media" revision="arrow-13.1" remote="github"/>
+    <project path="hardware/qcom-caf/sdm660/audio" name="windlite3/hardware_qcom-caf_sdm660_audio" revision="arrow-13.1" remote="github"/>
 
-    <project path="device/xiaomi/lavender" name="tilt-rgb/device_xiaomi_lavender" revision="arrow-13.1" remote="github" />
+    <project path="device/xiaomi/lavender" name="windlite3/arrow13_device_xiaomi_lavender" revision="arrow-13.1" remote="github" />
     <project path="device/xiaomi/sdm660-common" name="windlite3/arrow13_device_xiaomi_sdm660-common" revision="arrow-13.1" remote="github" />
-    <project path="vendor/xiaomi/lavender" name="Ratoriku-Studio/vendor_xiaomi_lavender" revision="arrow-13.1" remote="github" />
+    <project path="vendor/xiaomi/lavender" name="windlite3/arrow13_vendor_xiaomi_lavender" revision="arrow-13.1" remote="github" />
     <project path="vendor/xiaomi/sdm660-common" name="windlite3/arrow13_vendor_xiaomi_sdm660-common" revision="arrow-13.1" remote="github" />
-    <project path="kernel/xiaomi/sdm660" name="Lavender-Gang/kernel_xiaomi_lavender" revision="14.0" remote="github" />
+    <project path="kernel/xiaomi/sdm660" name="windlite3/arrow13_kernel_xiaomi_lavender" revision="arrow-13.1" remote="github" />
 
     <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" revision="arrow-13.1" remote="github" />
 </manifest>

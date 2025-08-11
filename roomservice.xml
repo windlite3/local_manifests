@@ -4,11 +4,16 @@
   <remote  name="evo-xyz-devices"
            fetch="https://github.com/Evolution-XYZ-Devices"
            revision="refs/heads/udc" />
+  <remote  name="windlite3"
+           fetch="https://github.com/windlite3"
+           revision="refs/heads/udc" />
   
-  <remove-project name="vendor_evolution" />  
-  <project path="vendor/evolution" name="vendor_evolution" remote="evo" />  
+  <!-- <remove-project name="vendor_evolution" /> -->
+  <!-- <project path="vendor/evolution" name="vendor_evolution" remote="evo" /> -->
   
-  <project path="device/xiaomi/lavender" remote="evo-xyz-devices" name="device_xiaomi_lavender" revision="udc" />
+  <!-- <project path="device/xiaomi/lavender" remote="evo-xyz-devices" name="device_xiaomi_lavender" revision="udc" /> -->
+  <project path="device/xiaomi/lavender" remote="windlite3" name="evo_device_xiaomi_lavender" revision="udc" />
+  
   <project path="device/xiaomi/sdm660-common" remote="evo-xyz-devices" name="device_xiaomi_sdm660-common" revision="udc" />
   <project path="vendor/xiaomi/lavender" remote="evo-xyz-devices" name="vendor_xiaomi_lavender" revision="udc" />    
   <project path="vendor/xiaomi/sdm660-common" remote="evo-xyz-devices" name="vendor_xiaomi_sdm660-common" revision="udc" />    

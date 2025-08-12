@@ -9,7 +9,7 @@
            revision="refs/heads/udc" />
   <remote  name="evo-x-aosp"
            fetch="https://github.com/Evolution-X-AOSP"
-           revision="refs/heads/udc" />
+           revision="refs/heads/u" />
   
   <remove-project name="vendor_evolution" />
   <project path="vendor/evolution" name="vendor_evolution" remote="evo-x-aosp" />

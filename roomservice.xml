@@ -10,6 +10,16 @@
   <remote  name="evo-x-aosp"
            fetch="https://github.com/Evolution-X-AOSP"
            revision="refs/heads/u" />
+
+  <remove-project name="build" />
+  <project path="build/make" name="build" groups="pdk,sysui-studio" remote="evo-x-aosp" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   
   <remove-project name="vendor_evolution" />
   <project path="vendor/evolution" name="vendor_evolution" remote="evo-x-aosp" />

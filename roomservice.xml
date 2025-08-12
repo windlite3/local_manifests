@@ -26,7 +26,7 @@
   <!-- <project path="vendor/evolution" name="vendor_evolution" remote="evo-x-aosp" /> -->
   <!-- <project path="vendor/evolution" name="vendor_evolution" remote="evo" /> -->
 
-  <project path="vendor/bcr" name="vendor_bcr" remote="evo-x-aosp" />
+  <project path="vendor/bcr" name="vendor_bcr" remote="evo-x-aosp" revision="udc" />
   
   <project path="device/xiaomi/lavender" remote="evo-xyz-devices" name="device_xiaomi_lavender" revision="udc" />
   <!-- <project path="device/xiaomi/lavender" remote="windlite3" name="evo_device_xiaomi_lavender" revision="udc" /> -->

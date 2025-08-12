@@ -22,6 +22,9 @@
   </project>
   
   <remove-project name="vendor_evolution" />
+  <remove-project name="vendor_extras" />
+  <!-- <project path="vendor/extras" name="vendor_extras" remote="evo" /> -->
+  
   <project path="vendor/evolution" name="vendor_evolution" remote="windlite3" revision="u" />
   <!-- <project path="vendor/evolution" name="vendor_evolution" remote="evo-x-aosp" /> -->
   <!-- <project path="vendor/evolution" name="vendor_evolution" remote="evo" /> -->

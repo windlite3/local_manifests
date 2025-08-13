@@ -7,7 +7,7 @@
            fetch="https://github.com/pix106"
            revision="refs/heads/15" />
 
-  <project path="device/xiaomi/lavender" remote="pix106" name="android_device_xiaomi_lavender" revision="lineage-22.0" />
+  <project path="device/xiaomi/lavender" remote="pix106" name="android_device_xiaomi_lavender" revision="lineage-22.2" />
   <project path="device/xiaomi/sdm660-common" remote="pix106" name="android_device_xiaomi_sdm660-common" revision="15" />
   <project path="vendor/xiaomi/lavender" remote="pix106" name="android_vendor_xiaomi_lavender" revision="15" />
   <project path="vendor/xiaomi/sdm660-common" remote="pix106" name="android_vendor_xiaomi_sdm660-common" revision="15" />

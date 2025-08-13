@@ -3,9 +3,28 @@
   <remote name="calyx"
            fetch="https://github.com/CalyxOS-Lavender"
            revision="refs/heads/android15-qpr2" />
-  <project path="device/xiaomi/lavender" remote="calyx" name="device_xiaomi_lavender" />
-  <project path="vendor/xiaomi/lavender" remote="calyx" name="vendor_xiaomi_lavender" />
-  <project path="kernel/xiaomi/sdm660" remote="calyx" name="kernel_xiaomi_sdm660" />
-  <project path="hardware/xiaomi" remote="calyx" name="platform_hardware_xiaomi" />
+
+  <remove-project name="CalyxOS/device_fairphone_FP4" />
+  <remove-project name="CalyxOS/kernel_fairphone_sm7225" />
+  <remove-project name="CalyxOS/device_fairphone_FP5" />
+  <remove-project name="CalyxOS/kernel_fairphone_qcm6490" />
+  <remove-project name="CalyxOS/device_motorola_devon" />
+  <remove-project name="CalyxOS/device_motorola_hawao" />
+  <remove-project name="CalyxOS/device_motorola_rhode" />
+  <remove-project name="CalyxOS/device_motorola_sm6225-common" />
+  <remove-project name="CalyxOS/kernel_motorola_sm6225" />
+  <remove-project name="CalyxOS/device_motorola_bangkk" />
+  <remove-project name="CalyxOS/device_motorola_fogo" />
+  <remove-project name="CalyxOS/device_motorola_fogos" />
+  <remove-project name="CalyxOS/device_motorola_sm6375-common" />
+  <remove-project name="CalyxOS/kernel_motorola_sm6375" />
+  <remove-project name="CalyxOS/platform_hardware_motorola" />
+  <remove-project name="CalyxOS/device_shift_otter" />
+  <remove-project name="CalyxOS/kernel_shift_qcm6490" />
+  
+  <!-- <project path="device/xiaomi/lavender" remote="calyx" name="device_xiaomi_lavender" /> -->
+  <!-- <project path="vendor/xiaomi/lavender" remote="calyx" name="vendor_xiaomi_lavender" /> -->
+  <!-- <project path="kernel/xiaomi/sdm660" remote="calyx" name="kernel_xiaomi_sdm660" /> -->
+  <!-- <project path="hardware/xiaomi" remote="calyx" name="platform_hardware_xiaomi" /> -->
   <!-- <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" /> -->
 </manifest>

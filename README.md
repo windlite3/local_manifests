@@ -1,2 +1,2 @@
 # local_manifests
-Redmi Note7 (Lavender)  Lineage 20.0 的自定义项目
+Redmi Note7 (Lavender)  CalyxOS android15-qpr2 的自定义项目

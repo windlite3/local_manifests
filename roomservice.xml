@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-20" />
+           revision="refs/heads/lineage-22.0" />
   <remote name="pix106"
            fetch="https://github.com/pix106"
            revision="refs/heads/15" />

@@ -19,5 +19,5 @@
   <project path="vendor/xiaomi/sdm660-common" remote="ImSpiDy" name="vendor_xiaomi_sdm660-common" />
   <project path="kernel/xiaomi/sdm660" remote="pix106" name="android_kernel_xiaomi_southwest-4.19" revision="main" />
   <project path="hardware/xiaomi" remote="lineage-23" name="android_hardware_xiaomi" revision="lineage-23.0" />
-  <project path="external/chromium-webview" remote="lineage-23" name="android_external_chromium-webview" revision="main" />
+  <!-- <project path="external/chromium-webview" remote="lineage-23" name="android_external_chromium-webview" revision="main" /> -->
 </manifest>

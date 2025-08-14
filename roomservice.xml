@@ -10,6 +10,10 @@
            fetch="https://github.com/windlite3"
            revision="refs/heads/14" />
 
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />  
+  <remove-project name="LineageOS/android_hardware_qcom_display" />  
+  <remove-project name="LineageOS/android_hardware_qcom_media" />  
+  
   <project path="device/xiaomi/lavender" remote="pix106" name="android_device_xiaomi_lavender" revision="lineage-21" />
   <project path="device/xiaomi/sdm660-common" remote="windlite3" name="android_device_xiaomi_sdm660-common" revision="14" />
   <project path="vendor/xiaomi/lavender" remote="pix106" name="android_vendor_xiaomi_lavender" revision="14" />

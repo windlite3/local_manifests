@@ -15,6 +15,6 @@
   <project path="vendor/xiaomi/lavender" remote="pix106" name="android_vendor_xiaomi_lavender" revision="14" />
   <project path="vendor/xiaomi/sdm660-common" remote="pix106" name="android_vendor_xiaomi_sdm660-common" revision="14" />
   <project path="kernel/xiaomi/sdm660" remote="pix106" name="android_kernel_xiaomi_southwest-4.19" revision="main" />
-  <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" revision="lineage-21.0" />
+  <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" revision="lineage-21" />
   <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" />
 </manifest>

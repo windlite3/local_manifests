@@ -6,9 +6,12 @@
   <remote name="pix106"
            fetch="https://github.com/pix106"
            revision="refs/heads/15" />
+  <remote name="windlite3"
+           fetch="https://github.com/windlite3"
+           revision="refs/heads/15" />
 
   <project path="device/xiaomi/lavender" remote="pix106" name="android_device_xiaomi_lavender" revision="lineage-22.2" />
-  <project path="device/xiaomi/sdm660-common" remote="pix106" name="android_device_xiaomi_sdm660-common" revision="15" />
+  <project path="device/xiaomi/sdm660-common" remote="windlite3" name="android_device_xiaomi_sdm660-common" revision="15" />
   <project path="vendor/xiaomi/lavender" remote="pix106" name="android_vendor_xiaomi_lavender" revision="15" />
   <project path="vendor/xiaomi/sdm660-common" remote="pix106" name="android_vendor_xiaomi_sdm660-common" revision="15" />
   <project path="kernel/xiaomi/lavender" remote="pix106" name="android_kernel_xiaomi_southwest-4.19" revision="main" />

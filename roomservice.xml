@@ -26,7 +26,7 @@
   <remove-project name="CalyxOS/kernel_shift_qcm6490" />
   
   <!-- Trees -->
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="calyx" revision="android15-qpr2" />
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="calyx" revision="android15-qpr2" />
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" remote="windlite3" revision="main" />
+  <!-- <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="calyx" revision="android15-qpr2" /> -->
+  <!-- <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="calyx" revision="android15-qpr2" /> -->
+  <!-- <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" remote="windlite3" revision="main" /> -->
 </manifest>

@@ -13,14 +13,15 @@
            fetch="https://github.com/windlite3"
            revision="refs/heads/15" />  
 
- <!-- Trees -->
+  <remove-project name="vendor_infinity" />  
+  <project path="vendor/infinity" name="vendor_infinity" remote="windlite3" />  
+  
+  <!-- Trees -->
   <project path="device/xiaomi/lavender" name="miteshx07/DT11" remote="github" revision="X15" />
   <project path="device/xiaomi/sdm660-common" name="miteshx07/android_device_xiaomi_sdm660-common" remote="github" revision="X15" />
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="pix106" revision="15" />
   <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="pix106" revision="15"  />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" remote="pix106" revision="main-dynamic" />
   <project path="packages/apps/ViPER4AndroidFX" name="miteshx07/V4AFX" remote="github" revision="fifteen" />
-  
-  <!-- <project path="hardware/xiaomi" remote="lineage-23" name="android_hardware_xiaomi" revision="lineage-23.0" /> -->
-  <!-- <project path="external/chromium-webview" remote="lineage-23" name="android_external_chromium-webview" revision="main" /> -->
+
 </manifest>

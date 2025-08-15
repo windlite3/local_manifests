@@ -2,22 +2,25 @@
 <manifest>
   <remote  name="lineage-23"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-23.0" />
+           revision="refs/heads/lineage-22.2" />
   <remote name="ImSpiDy"
            fetch="https://github.com/ImSpiDy"
-           revision="refs/heads/16" />
+           revision="refs/heads/15" />
   <remote name="pix106"
            fetch="https://github.com/pix106"
-           revision="refs/heads/16" />
+           revision="refs/heads/15" />
   <remote name="windlite3"
            fetch="https://github.com/windlite3"
-           revision="refs/heads/16" />  
+           revision="refs/heads/15" />  
+
+ <!-- Trees -->
+  <project path="device/xiaomi/lavender" name="miteshx07/DT11" remote="github" revision="X15" />
+  <project path="device/xiaomi/sdm660-common" name="miteshx07/android_device_xiaomi_sdm660-common" remote="github" revision="X15" />
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="pix106" revision="15" />
+  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="pix106" revision="15"  />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" remote="pix106" revision="main-dynamic" />
+  <project path="packages/apps/ViPER4AndroidFX" name="miteshx07/V4AFX" remote="github" revision="fifteen" />
   
-  <project path="device/xiaomi/lavender" remote="ImSpiDy" name="device_xiaomi_lavender" />
-  <project path="device/xiaomi/sdm660-common" remote="windlite3" name="android_device_xiaomi_sdm660-common" />
-  <project path="vendor/xiaomi/lavender" remote="ImSpiDy" name="vendor_xiaomi_lavender" />
-  <project path="vendor/xiaomi/sdm660-common" remote="ImSpiDy" name="vendor_xiaomi_sdm660-common" />
-  <project path="kernel/xiaomi/sdm660" remote="pix106" name="android_kernel_xiaomi_southwest-4.19" revision="main" />
-  <project path="hardware/xiaomi" remote="lineage-23" name="android_hardware_xiaomi" revision="lineage-23.0" />
+  <!-- <project path="hardware/xiaomi" remote="lineage-23" name="android_hardware_xiaomi" revision="lineage-23.0" /> -->
   <!-- <project path="external/chromium-webview" remote="lineage-23" name="android_external_chromium-webview" revision="main" /> -->
 </manifest>

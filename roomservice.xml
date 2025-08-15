@@ -9,6 +9,6 @@
 
   <!-- Trees -->
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-4.19" remote="aeoniixx" revision="YAAP-16" />
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-4.19" remote="aeoniixx" revision="YAAP-16" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-4.19" remote="aeoniixx" revision="16" />
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" remote="windlite3" revision="main" />
 </manifest>

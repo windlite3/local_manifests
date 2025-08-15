@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="lineage"
-           fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-23.0" />  
   <remote name="windlite3"
            fetch="https://github.com/windlite3"
            revision="refs/heads/16" />  

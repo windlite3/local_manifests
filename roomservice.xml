@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="windlite3"
+           fetch="https://github.com/windlite3"
+           revision="refs/heads/15" />  
   <remote name="calyx"
            fetch="https://github.com/CalyxOS-Lavender"
-           revision="refs/heads/android15-qpr2" />
+           revision="refs/heads/android15-qpr2" />  
 
   <remove-project name="CalyxOS/device_fairphone_FP4" />
   <remove-project name="CalyxOS/kernel_fairphone_sm7225" />
@@ -22,9 +25,8 @@
   <remove-project name="CalyxOS/device_shift_otter" />
   <remove-project name="CalyxOS/kernel_shift_qcm6490" />
   
-  <!-- <project path="device/xiaomi/lavender" remote="calyx" name="device_xiaomi_lavender" /> -->
-  <!-- <project path="vendor/xiaomi/lavender" remote="calyx" name="vendor_xiaomi_lavender" /> -->
-  <!-- <project path="kernel/xiaomi/sdm660" remote="calyx" name="kernel_xiaomi_sdm660" /> -->
-  <!-- <project path="hardware/xiaomi" remote="calyx" name="platform_hardware_xiaomi" /> -->
-  <!-- <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" /> -->
+  <!-- Trees -->
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="calyx" revision="android15-qpr2" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="calyx" revision="android15-qpr2" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" remote="windlite3" revision="main" />
 </manifest>

@@ -15,19 +15,21 @@
   <remote name="wHo-EM-i"
            fetch="https://github.com/wHo-EM-i"
            revision="refs/heads/14-caf-sdm660" />
+  <remote name="mitmac29"
+           fetch="https://github.com/mitmac29"
+           revision="refs/heads/lineage-21.0" />
   
   <remove-project name="LineageOS/android_hardware_qcom_audio" />  
   <remove-project name="LineageOS/android_hardware_qcom_display" />  
   <remove-project name="LineageOS/android_hardware_qcom_media" />  
-  
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="14-caf-sdm660" remote="wHo-EM-i"/>
   <project path="hardware/qcom-caf/msm8998/media"   name="android_hardware_qcom_media"   revision="14-caf-sdm660" remote="wHo-EM-i"/>
   <project path="hardware/qcom-caf/msm8998/audio"   name="android_hardware_qcom_audio"   revision="14-caf-sdm660" remote="wHo-EM-i"/>  
   
-  <project path="device/xiaomi/lavender" remote="pix106" name="android_device_xiaomi_lavender" revision="lineage-21" />
-  <project path="device/xiaomi/sdm660-common" remote="windlite3" name="android_device_xiaomi_sdm660-common" revision="14" />
-  <project path="vendor/xiaomi/lavender" remote="pix106" name="android_vendor_xiaomi_lavender" revision="14" />
-  <project path="vendor/xiaomi/sdm660-common" remote="pix106" name="android_vendor_xiaomi_sdm660-common" revision="14" />
+  <project path="device/xiaomi/lavender" remote="orga" name="device_xiaomi_lavender" revision="lineage-21.0" />
+  <!-- <project path="device/xiaomi/sdm660-common" remote="windlite3" name="android_device_xiaomi_sdm660-common" revision="14" /> -->
+  <project path="vendor/xiaomi/lavender" remote="orga" name="vendor_xiaomi_lavender" revision="lineage-21.0" />
+  <!-- <project path="vendor/xiaomi/sdm660-common" remote="pix106" name="android_vendor_xiaomi_sdm660-common" revision="14" /> -->
   <project path="kernel/xiaomi/sdm660" remote="pix106" name="android_kernel_xiaomi_southwest-4.19" revision="main" />
   <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" revision="lineage-21" />
   <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" />

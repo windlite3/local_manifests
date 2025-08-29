@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="superior"
+  <remote name="SuperiorOS"
            fetch="https://github.com/SuperiorOS-Devices"
            revision="refs/heads/thirteen" />
   
-  <project path="device/xiaomi/lavender" remote="superior" name="device_xiaomi_lavender" />
-  <!-- <project path="device/xiaomi/lavender-common" remote="superior" name="device_xiaomi_lavender-common" /> -->
+  <project path="device/xiaomi/lavender" remote="SuperiorOS" name="device_xiaomi_lavender" />
+  <!-- <project path="device/xiaomi/lavender-common" remote="SuperiorOS" name="device_xiaomi_lavender-common" /> -->
   
-  <project path="vendor/xiaomi/lavender" remote="superior" name="vendor_xiaomi_lavender" />
-  <!-- <project path="vendor/xiaomi/lavender-common" remote="superior" name="vendor_xiaomi_lavender-common" /> -->
+  <project path="vendor/xiaomi/lavender" remote="SuperiorOS" name="vendor_xiaomi_lavender" />
+  <!-- <project path="vendor/xiaomi/lavender-common" remote="SuperiorOS" name="vendor_xiaomi_lavender-common" /> -->
   
-  <project path="kernel/xiaomi/lavender" remote="superior" name="kernel_xiaomi_lavender" />
+  <project path="kernel/xiaomi/lavender" remote="SuperiorOS" name="kernel_xiaomi_lavender" />
   
   <!-- <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" /> -->
   <!-- <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" /> -->

@@ -1,2 +1,4 @@
 # local_manifests
-Redmi Note7 (Lavender)  Project-Infinity-X 16 的自定义项目
+Redmi Note7 (Lavender)  Project-Flare 15 的自定义项目
+
+https://github.com/Project-Flare/manifest

@@ -18,6 +18,6 @@
   <project path="vendor/xiaomi/lavender" remote="mitmac29" name="vendor_xiaomi_lavender" revision="Flare-15" />
   <!-- <project path="vendor/xiaomi/sdm660-common" remote="mitmac29" name="vendor_xiaomi_sdm660-common" /> -->
   <project path="kernel/xiaomi/lavender" remote="mitmac29" name="android_kernel_xiaomi_southwest-4.19" revision="main" />
-  <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" />
-  <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" />
+  <!-- <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" /> -->
+  <!-- <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" /> -->
 </manifest>

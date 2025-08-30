@@ -20,4 +20,5 @@
   <project path="kernel/xiaomi/lavender" remote="mitmac29" name="android_kernel_xiaomi_southwest-4.19" revision="main" />
   <!-- <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" /> -->
   <!-- <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" /> -->
+  <project path="vendor/motorola-dolby" remote="github" name="Aeoniixx/vendor_motorola-dolby" revision="v1.3" />
 </manifest>

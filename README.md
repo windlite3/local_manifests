@@ -10,7 +10,7 @@ repo sync --force-sync -c
 
 source build/envsetup.sh
 
-lunch lineage_lavender-userdebug
+breakfast lavender userdebug
 
 m otapackage
 ```

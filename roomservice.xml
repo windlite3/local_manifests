@@ -33,7 +33,7 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
   <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+  <!-- <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" /> -->
   <remove-project name="LineageOS/android_vendor_qcom_opensource_dataipa" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-core" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-intf" />

@@ -13,6 +13,6 @@
   <project path="device/xiaomi/lavender" remote="voltage" name="device_xiaomi_lavender" revision="13-4.4" />
   <project path="vendor/xiaomi/lavender" remote="voltage" name="vendor_xiaomi_lavender" revision="13-4.4" />
   <project path="kernel/xiaomi/lavender" remote="voltage" name="kernel_xiaomi_lavender" revision="13-4.4" />
-  <!-- <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" />
+  <!-- <project path="hardware/xiaomi" remote="lineage" name="android_hardware_xiaomi" /> -->
   <!-- <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" /> -->
 </manifest>

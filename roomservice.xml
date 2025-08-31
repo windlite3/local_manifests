@@ -14,13 +14,13 @@
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
   <remove-project name="LineageOS/android_hardware_qcom_bt" />
   <remove-project name="LineageOS/android_hardware_qcom_camera" />
   <remove-project name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
   <remove-project name="LineageOS/android_hardware_qcom_gps" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
   <remove-project name="LineageOS/android_hardware_qcom_sdm845_display" />
   <remove-project name="LineageOS/android_hardware_qcom_sdm845_gps" />
   <remove-project name="LineageOS/android_hardware_qcom_sm7250_display" />

@@ -43,5 +43,5 @@
   <!-- <project path="external/chromium-webview" remote="lineage" name="android_external_chromium-webview" revision="main" /> -->
 
   <remove-project name="LineageOS/android_hardware_interfaces" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="windlite3" revision="lineage-23.0" />  
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="windlite3" revision="lineage-23.0" />  
 </manifest>

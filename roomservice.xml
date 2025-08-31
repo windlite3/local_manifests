@@ -36,7 +36,6 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_dataipa" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-core" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_display-intf" />
   
   <project path="hardware/qcom-caf/sdm660/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-23.0-caf-sdm660" />

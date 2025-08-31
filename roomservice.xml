@@ -27,6 +27,10 @@
   <remove-project name="LineageOS/android_hardware_qcom_sm7250_gps" />
   <remove-project name="LineageOS/android_hardware_qcom_sm8150_display" />
   <remove-project name="LineageOS/android_hardware_qcom_sm8150_gps" />  
+
+  <project path="hardware/qcom-caf/sdm660/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-23.0-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.0-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-23.0-caf-sdm660" />
   
   <project path="device/xiaomi/lavender" remote="pix106" name="android_device_xiaomi_lavender" revision="lineage-23.0" />
   <project path="device/xiaomi/sdm660-common" remote="windlite3" name="android_device_xiaomi_sdm660-common" revision="16" />
